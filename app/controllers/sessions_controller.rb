@@ -12,7 +12,7 @@ class SessionsController < ApplicationController
   end
 
   def destroy
-    @destroy = session.delete :name
+    session.delete :name
   end
 
 end
